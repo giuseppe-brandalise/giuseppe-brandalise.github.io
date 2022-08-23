@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(253, 251, 251);
+    background-color:#0D4D4D;
     margin: 150px 0px 0px 0px;
     font-family: 'Aboreto', cursive;
 }
@@ -8,7 +8,7 @@ body {
     position:fixed;
     top:0;
     width: 100%;
-    background-color: green;
+    background-color: #003333;
     height: 150px;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-    color:darkgray;
+    color:#669999;
 }
 
 #minha_foto {
@@ -74,7 +74,7 @@ article {
 }
 
 #rodape {
-    background-color: green;
+    background-color: #003333;
     height: 50px;
     text-align: center;
     margin-top: 10px;
