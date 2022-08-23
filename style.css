@@ -1,15 +1,23 @@
 body {
-    background-color:#0D4D4D;
-    margin: 150px 0px 0px 0px;
+    background-color:#226666;
+    margin: 0;
     font-family: 'Aboreto', cursive;
 }
 
 #cabecalho {
-    position:fixed;
     top:0;
     width: 100%;
     background-color: #003333;
-    height: 150px;
+    height: 300px;
+}
+
+#minha_foto {
+    padding-top: 10px;
+    width: 170px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #titulo {
@@ -25,11 +33,6 @@ a {
     color:#669999;
 }
 
-#minha_foto {
-    width: 200px;
-    display: inline-block;
-    margin: 20px;
-}
 
 aside {
     display: inline-block;
