@@ -85,12 +85,26 @@ article {
     margin-left: auto;
     margin-right: auto;
     margin: 10px;
+    vertical-align: middle;
 }
 
-/* .habimg {
-    width: 140px;
+.habimg {
+    height: 140px;
+    margin-top: 40px;
+    vertical-align: middle;
+}
+
+.habLink {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.habText {
+    font-size: 17px;
+    font-weight: bold;
     margin-top: 30px;
-} */
+}
 
 #rodape {
     background-color: #003333;
