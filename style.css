@@ -1,9 +1,7 @@
 body {
     background-color:#226666;
     margin: 0;
-    /* font-family: 'Aboreto', cursive; */
-    /* font-family: sans-serif; */
-    /* font-weight: bold; */
+    font-family: sans-serif;
 }
 
 header {
@@ -42,8 +40,7 @@ nav{
 }
 
 article {
-    height: 250px;
-    padding: 5px 15px;
+    padding: 0px 15px;
     line-height: 25px;
     margin: 10px;
     font-size: 20px;
@@ -58,21 +55,20 @@ article {
     background-color: #0D4D4D;
     font-size: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     display: flexbox;
 }
 
-#hab1 {
-    text-align: center;
-}
-
-#hab2 {
-    text-align: center;
-}
-#habilidades {
+.section-titles {
     margin-left: 20px;
     text-align: center;
     padding-bottom: 10px;
+}
+
+#habilidade-desenvolvidas {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 .habilidade {
@@ -95,7 +91,6 @@ article {
 }
 
 .habLink {
-    text-decoration: none;
     color: black;
     vertical-align: middle;
 }
